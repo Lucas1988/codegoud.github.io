@@ -27,6 +27,8 @@
       font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
       display: flex;
       justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     .wrap {
@@ -34,6 +36,7 @@
       max-width: var(--maxw);
       padding: 42px 18px 64px;
       text-align: center;
+      flex: 1;
     }
 
     /* Header */
@@ -72,6 +75,15 @@
       color: inherit;
       text-decoration: none;
     }
+
+    /* Footer */
+    footer {
+      background: rgba(255,255,255,0.1);
+      color: var(--muted);
+      font-size: 14px;
+      padding: 16px 0;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -102,5 +114,9 @@
       </div>
     </section>
   </main>
+
+  <footer>
+    KvK 51517787 &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp; BTW-ID 001347965B81
+  </footer>
 </body>
 </html>
